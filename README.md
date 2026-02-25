@@ -1,4 +1,4 @@
-# ai_rename
+# AIRename
 
 AI-assisted variable renaming for Go files inside Neovim.
 
