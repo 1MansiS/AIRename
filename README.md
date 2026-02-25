@@ -1,4 +1,4 @@
-# AIRename
+# ai_rename
 
 AI-assisted variable renaming for Go files inside Neovim.
 
@@ -58,6 +58,20 @@ if ok then
   end, { nargs = "?" })
 end
 ```
+
+---
+
+## Configuration
+
+These are the parts you are expected to adapt to your environment — the plugin does not expose a setup function today (see [issue #1](../../issues/1)):
+
+| What | Where | Default | Change if… |
+|---|---|---|---|
+| Binary path | `rename.lua:5` | `~/.config/nvim/lua/ai_rename/go/ai_rename_bin` | You cloned to a different directory |
+| Default provider | `rename.lua:57` | `claude` | You want Ollama as the default |
+| Command registration | `init.lua` | Registers `:AIRename` automatically on `require("ai_rename")` | You want to register it yourself / skip auto-registration |
+
+> If you cloned the repo to a non-standard path, edit line 5 of `rename.lua` to point to the actual binary location before use.
 
 ---
 
