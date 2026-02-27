@@ -1,4 +1,4 @@
-# AIRename
+# ai_rename
 
 AI-assisted variable renaming for Go files inside Neovim.
 
@@ -6,7 +6,7 @@ Place your cursor on any identifier, run `:AIRename`, and get three
 context-aware rename suggestions powered by an LLM — then apply the one you
 like with a single keypress via gopls project-wide.
 
-![demo](demo.gif)
+<video src="demo.mov" autoplay loop muted playsinline width="100%"></video>
 
 ---
 
