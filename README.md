@@ -6,7 +6,7 @@ Place your cursor on any identifier, run `:AIRename`, and get three
 context-aware rename suggestions powered by an LLM — then apply the one you
 like with a single keypress via gopls project-wide.
 
-<video src="demo.mov" autoplay loop muted playsinline width="100%"></video>
+<video src="https://github.com/user-attachments/assets/4b746e00-e4ea-48fa-b84b-703574ce6c83" autoplay loop muted playsinline width="100%"></video>
 
 ---
 

@@ -1,0 +1,8 @@
+# Build output
+go/ai_rename_bin
+
+# macOS
+.DS_Store
+
+# AI coding assistant instructions (local only)
+CLAUDE.md
